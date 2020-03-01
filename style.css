@@ -1,0 +1,72 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dollar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 850px;
+    color:#fff;
+}
+h1 {
+    font-size: 60px;
+    margin-top: 50px;
+}
+h4 {
+    font-size: 40px;
+    padding:10px 0px;
+}
+.submit-area {
+    background-color: rgb(235, 145, 145);
+    margin-top:40px;
+    padding:40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+}
+.submit-area input {
+    padding: 25px;
+    font-size: 20px;
+}
+#login {
+    padding: 10px 50px;
+    background-color: rgb(216, 73, 73);
+    border:none;
+    border-radius: 10px;
+    color:#fff;
+}
+#login:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 300ms ease-in;
+}
+/*---- transaction area----*/
+#transaction-area {
+    display: none;
+}
+.row {
+    margin-top: 100px;
+}
+.deposit, .withdraw, .balance {
+    padding:30px 50px;
+    border-radius:10px;
+}
+.deposit {
+    background-color: slateblue;
+}
+.withdraw {
+    background-color:lightsalmon;
+}
+.balance {
+    background-color:orange;
+}
+.btn {
+    padding: 10px 50px;
+    margin-top: 20px;
+    background-color: rgb(216, 73, 73);
+    border:none;
+    border-radius: 10px;
+    color:#fff;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 300ms ease-in;
+}
